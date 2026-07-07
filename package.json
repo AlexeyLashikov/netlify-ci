@@ -15,12 +15,14 @@
     "fixAndBuild": "npm run fixAll && npm run build",
     "lintfixAndPush": "npm run fixAll && git add . && git commit -m 'подготовили к публикации' && git push"
   },
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^3.0.4",
     "del": "^6.0.0",
     "gulp": "^5.0.1",
     "gulp-concat-css": "^3.1.0",
-    "gulp-plumber": "^1.2.1",
+    "gulp-plumber": "^1.2.1"
+  },
+  "devDependencies": {
     "prettier": "^3.9.4",
     "stylelint": "^17.14.0",
     "stylelint-config-standard": "^40.0.0"
